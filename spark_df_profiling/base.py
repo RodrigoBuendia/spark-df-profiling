@@ -147,7 +147,7 @@ def describe(df, bins, corr_reject, config, **kwargs):
 
     def mini_histogram(histogram_data):
         # Small histogram
-        imgdata = BytesIO()
+        imgdata = BytesIO()#
         hist_data = histogram_data
         figure = plt.figure(figsize=(2, 0.75))
         plot = plt.subplot()
